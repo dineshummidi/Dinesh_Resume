@@ -1,0 +1,156 @@
+
+.container1{
+  background-color: #9ED2C6;
+  height: auto;
+  width: 320px;
+  padding:20px 10px 20px 10px;
+}
+
+.text {
+  padding-left: 10px;
+}
+
+
+.container2{
+  background-color: pink;
+  height :auto;
+  width: 1050px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.container2 p{
+  padding: 0 20px 0 15px;
+}
+.start {
+  display: flex;
+}
+
+
+@media (max-width:640px) {
+  .start {
+    display: flex;
+    flex-direction: column;
+  }
+  .container1{
+    height: auto;
+    width: auto;
+  }
+  .container2{
+    height :auto;
+    width: auto;
+  }
+}
+
+.table1 img{
+  height: 40px;
+  width: 40px;
+}
+.table1 p{
+  font-size: 15px;
+}
+
+.container1 h3{
+  font-size: 25px;
+  padding:0 50px 0 10px;
+}
+.container1 h4{
+  font-size: 20px;
+  padding:0 50px 0 10px;
+  background-color: none;
+  color: black;
+  line-height: 1px;
+}
+.container1 li{
+  line-height: 21px;
+}
+
+/* .text{
+  color: #002B5B;
+} */
+
+.container2 h3{
+  font-size: 30px;
+  padding:0 50px 0 10px;
+}
+.sum {
+  background-color: white;
+
+}
+
+.sump{
+  line-height: 150%;
+}
+
+.pp{
+font-size: 120%}
+
+.container2 h4{
+  background-color: white;
+  color: black;
+}
+.container2 h4{
+  font-size: 20px;
+  padding:0 50px 0 10px;
+}
+.lang td {
+  padding-left: 10px;
+  position: relative;
+  bottom: 15px;
+  line-height: 30px;
+}
+.hlang{
+  background-color: black;
+  color: white;
+}
+
+.skill{
+  background-color: black;
+  color: white;
+}
+@media (max-width:640px) {
+  .resumetext{
+    visibility: hidden;
+  }
+  .resumetext2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 2.5rem  ;
+    width: auto;
+  }
+  .Dinesh{
+    height: 15rem;
+    width: 15rem;
+    padding: 1rem 6rem ;
+    border-radius: 50%;
+
+  }
+  .Dineshname  {
+    text-align: center;
+
+  }
+}
+@media (min-width:640px) {
+  .resumetext{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+  }
+  .resumetext2{
+    visibility: hidden;
+  }
+  .Dinesh{
+    height: 15rem;
+    width: 15rem;
+    padding: 20px 30px 0 35px;
+    border-radius: 50%;
+  }
+  .Dineshname{
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+}
