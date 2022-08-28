@@ -106,7 +106,21 @@ font-size: 120%}
 .skill{
   background-color: black;
   color: white;
+  position: relative;
+  bottom: 5px;
 }
+.cskill{
+  position: absolute;
+}
+.pskill {
+  position: absolute;
+}
+.hobbies{
+  position: absolute;
+}
+
+
+
 @media (max-width:640px) {
   .resumetext{
     visibility: hidden;
