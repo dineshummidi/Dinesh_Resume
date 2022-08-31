@@ -84,6 +84,10 @@
 .pp{
 font-size: 120%}
 
+.career {
+  line-height: 30px;
+}
+
 .container2 h4{
   background-color: white;
   color: black;
@@ -119,6 +123,11 @@ font-size: 120%}
   position: absolute;
 }
 
+/* .stable  {
+  position: relative;
+  left:20px;
+  border-spacing: 5px;
+} */
 
 
 @media (max-width:640px) {
