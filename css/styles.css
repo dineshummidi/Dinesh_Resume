@@ -127,9 +127,9 @@ font-size: 120%}
   position: relative;
   left:20px;
   border-spacing: 5px;
-} 
+} */
 
-
+/*
 @media (max-width:640px) {
   .resumetext{
     visibility: hidden;
@@ -152,8 +152,8 @@ font-size: 120%}
     text-align: center;
 
   }
-} */
-@media (max-width:640px) {
+} 
+@media (min-width:640px) {
   .resumetext{
     background-color: black;
     color: white;
@@ -177,3 +177,4 @@ font-size: 120%}
     padding-bottom: 20px;
   }
 }
+*/
